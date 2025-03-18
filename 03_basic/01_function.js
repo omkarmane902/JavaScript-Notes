@@ -9,7 +9,7 @@ function  ex1(){
 
 // ex1()
 
-
+//if do not sent prametermeter then print other statement and and send parameter then print other statement
 
 function loginuser (username){
     if( username===undefined){
