@@ -66,3 +66,16 @@ const regularUser2 = {
 }
 
 console.log(Object.values(regularUser2));
+
+
+// key value change karun tay key la access karani
+
+const regularUser3 = {
+    email: "omkar@gmail.com",
+    Password:9617,
+            firstname: "omkar",
+            lastname: "mane"
+        } 
+    
+const {firstname:name}=regularUser3
+console.log(name);
